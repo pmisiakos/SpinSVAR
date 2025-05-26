@@ -1,0 +1,137 @@
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.5], edges = 5, samples = [1, 2, 4, 8, 16], nodes = [1000], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 2, methods = ['spinsvar'], transformation = None, runs = 1, timeout = 10000, dataset = laplace, table = TPR, sparserc_epochs = 10000, algo_lags = 2, legend = False, rotate = False, 
+samples = 1, timesteps = 1000, nodes = 1000, edges = 9000
+Total executions were 1
+Acc spinsvar is,0.9273333333,8346.000,0.073,719.000,0.914,0.073,0.135,0.536,0.961,20.339,0.000,inf,0.000,136275.000
+Std spinsvar is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,nan,0.000,0.000
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.5], edges = 5, samples = [1, 2, 4, 8, 16], nodes = [1000], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 2, methods = ['spinsvar'], transformation = None, runs = 1, timeout = 10000, dataset = laplace, table = TPR, sparserc_epochs = 10000, algo_lags = 2, legend = False, rotate = False, 
+samples = 2, timesteps = 1000, nodes = 1000, edges = 9000
+Total executions were 1
+Acc spinsvar is,0.1175555556,1058.000,0.882,7942.000,1.000,0.882,0.938,0.941,0.246,41.546,0.000,inf,0.000,56515.000
+Std spinsvar is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,nan,0.000,0.000
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.5], edges = 5, samples = [1, 2, 4, 8, 16], nodes = [1000], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 2, methods = ['spinsvar'], transformation = None, runs = 1, timeout = 10000, dataset = laplace, table = TPR, sparserc_epochs = 10000, algo_lags = 2, legend = False, rotate = False, 
+samples = 4, timesteps = 1000, nodes = 1000, edges = 9000
+Total executions were 1
+Acc spinsvar is,0.0412222222,371.000,0.959,8629.000,1.000,0.959,0.979,0.979,0.115,52.938,0.000,inf,0.000,99791.000
+Std spinsvar is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,nan,0.000,0.000
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.5], edges = 5, samples = [1, 2, 4, 8, 16], nodes = [1000], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 2, methods = ['spinsvar'], transformation = None, runs = 1, timeout = 10000, dataset = laplace, table = TPR, sparserc_epochs = 10000, algo_lags = 2, legend = False, rotate = False, 
+samples = 8, timesteps = 1000, nodes = 1000, edges = 9000
+Total executions were 1
+Acc spinsvar is,0.0124444444,112.000,0.988,8888.000,1.000,0.988,0.994,0.994,0.063,101.872,0.000,inf,0.000,195561.000
+Std spinsvar is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,nan,0.000,0.000
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.5], edges = 5, samples = [1, 2, 4, 8, 16], nodes = [1000], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 2, methods = ['spinsvar'], transformation = None, runs = 1, timeout = 10000, dataset = laplace, table = TPR, sparserc_epochs = 10000, algo_lags = 2, legend = False, rotate = False, 
+samples = 16, timesteps = 1000, nodes = 1000, edges = 9000
+Total executions were 1
+Acc spinsvar is,0.0030000000,27.000,0.997,8973.000,1.000,0.997,0.998,0.998,0.037,127.383,0.000,inf,0.000,387458.000
+Std spinsvar is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,nan,0.000,0.000
+
+
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.5], edges = 5, samples = [1, 2, 4, 8, 16], nodes = [2000], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 2, methods = ['spinsvar'], transformation = None, runs = 1, timeout = 10000, dataset = laplace, table = TPR, sparserc_epochs = 10000, algo_lags = 2, legend = False, rotate = False, 
+samples = 1, timesteps = 1000, nodes = 2000, edges = 18000
+Total executions were 1
+Acc spinsvar is,0.9997222222,17995.000,0.000,5.000,1.000,0.000,0.001,0.500,1.000,60.008,0.000,inf,0.000,310900.000
+Std spinsvar is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,nan,0.000,0.000
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.5], edges = 5, samples = [1, 2, 4, 8, 16], nodes = [2000], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 2, methods = ['spinsvar'], transformation = None, runs = 1, timeout = 10000, dataset = laplace, table = TPR, sparserc_epochs = 10000, algo_lags = 2, legend = False, rotate = False, 
+samples = 2, timesteps = 1000, nodes = 2000, edges = 18000
+Total executions were 1
+Acc spinsvar is,0.9278333333,16701.000,0.072,1365.000,0.952,0.072,0.134,0.536,0.961,148.311,0.000,inf,0.000,560108.000
+Std spinsvar is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,nan,0.000,0.000
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.5], edges = 5, samples = [1, 2, 4, 8, 16], nodes = [2000], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 2, methods = ['spinsvar'], transformation = None, runs = 1, timeout = 10000, dataset = laplace, table = TPR, sparserc_epochs = 10000, algo_lags = 2, legend = False, rotate = False, 
+samples = 4, timesteps = 1000, nodes = 2000, edges = 18000
+Total executions were 1
+Acc spinsvar is,0.1191111111,2144.000,0.881,15856.000,1.000,0.881,0.937,0.940,0.240,298.562,0.000,inf,0.000,225319.000
+Std spinsvar is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,nan,0.000,0.000
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.5], edges = 5, samples = [1, 2, 4, 8, 16], nodes = [2000], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 2, methods = ['spinsvar'], transformation = None, runs = 1, timeout = 10000, dataset = laplace, table = TPR, sparserc_epochs = 10000, algo_lags = 2, legend = False, rotate = False, 
+samples = 8, timesteps = 1000, nodes = 2000, edges = 18000
+Total executions were 1
+Acc spinsvar is,0.0358333333,645.000,0.964,17355.000,1.000,0.964,0.982,0.982,0.111,465.973,0.000,inf,0.000,398129.000
+Std spinsvar is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,nan,0.000,0.000
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.5], edges = 5, samples = [1, 2, 4, 8, 16], nodes = [2000], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 2, methods = ['spinsvar'], transformation = None, runs = 1, timeout = 10000, dataset = laplace, table = TPR, sparserc_epochs = 10000, algo_lags = 2, legend = False, rotate = False, 
+samples = 16, timesteps = 1000, nodes = 2000, edges = 18000
+Total executions were 1
+Acc spinsvar is,0.0101666667,183.000,0.990,17817.000,1.000,0.990,0.995,0.995,0.057,698.407,0.000,inf,0.000,778582.000
+Std spinsvar is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,nan,0.000,0.000
+
+
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.5], edges = 5, samples = [1, 2, 4, 8, 16], nodes = [4000], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 2, methods = ['spinsvar'], transformation = None, runs = 1, timeout = 10000, dataset = laplace, table = TPR, sparserc_epochs = 10000, algo_lags = 2, legend = False, rotate = False, 
+samples = 1, timesteps = 1000, nodes = 4000, edges = 36000
+Total executions were 1
+Acc spinsvar is,1.0000000000,36000.000,0.000,0.000,0.000,0.000,0.000,0.500,1.000,126.907,0.000,inf,0.000,631961.000
+Std spinsvar is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,nan,0.000,0.000
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.5], edges = 5, samples = [1, 2, 4, 8, 16], nodes = [4000], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 2, methods = ['spinsvar'], transformation = None, runs = 1, timeout = 10000, dataset = laplace, table = TPR, sparserc_epochs = 10000, algo_lags = 2, legend = False, rotate = False, 
+samples = 2, timesteps = 1000, nodes = 4000, edges = 36000
+Total executions were 1
+Acc spinsvar is,0.9998055556,35993.000,0.000,7.000,1.000,0.000,0.000,0.500,1.000,145.344,0.000,inf,0.000,1288636.000
+Std spinsvar is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,nan,0.000,0.000
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.5], edges = 5, samples = [1, 2, 4, 8, 16], nodes = [4000], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 2, methods = ['spinsvar'], transformation = None, runs = 1, timeout = 10000, dataset = laplace, table = TPR, sparserc_epochs = 10000, algo_lags = 2, legend = False, rotate = False, 
+samples = 4, timesteps = 1000, nodes = 4000, edges = 36000
+Total executions were 1
+Acc spinsvar is,0.9264722222,33353.000,0.074,2780.000,0.953,0.074,0.137,0.537,0.960,400.625,0.000,inf,0.000,2327690.000
+Std spinsvar is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,nan,0.000,0.000
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.5], edges = 5, samples = [1, 2, 4, 8, 16], nodes = [4000], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 2, methods = ['spinsvar'], transformation = None, runs = 1, timeout = 10000, dataset = laplace, table = TPR, sparserc_epochs = 10000, algo_lags = 2, legend = False, rotate = False, 
+samples = 8, timesteps = 1000, nodes = 4000, edges = 36000
+Total executions were 1
+Acc spinsvar is,0.1246111111,4486.000,0.875,31521.000,1.000,0.875,0.934,0.938,0.253,1815.452,0.000,inf,0.000,905810.000
+Std spinsvar is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,nan,0.000,0.000
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.5], edges = 5, samples = [1, 2, 4, 8, 16], nodes = [4000], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 2, methods = ['spinsvar'], transformation = None, runs = 1, timeout = 10000, dataset = laplace, table = TPR, sparserc_epochs = 10000, algo_lags = 2, legend = False, rotate = False, 
+samples = 16, timesteps = 1000, nodes = 4000, edges = 36000
+Total executions were 1
+Acc spinsvar is,0.0335000000,1206.000,0.967,34794.000,1.000,0.967,0.983,0.983,0.105,3994.907,0.000,inf,0.000,1589312.000
+Std spinsvar is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,nan,0.000,0.000
+
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.5], edges = 5, samples = [1, 2, 4, 8, 16], nodes = [1000], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 2, methods = ['sparserc'], transformation = None, runs = 1, timeout = 10000, dataset = laplace, table = TPR, sparserc_epochs = 10000, algo_lags = 2, legend = False, rotate = False, 
+samples = 1, timesteps = 1000, nodes = 1000, edges = 9000
+Total executions were 1
+Acc sparserc is,0.3648888889,3284.000,0.729,7498.000,0.875,0.729,0.795,0.864,0.533,1048.770,0.000,inf,0.000,63130.000
+Std sparserc is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,nan,0.000,0.000
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.5], edges = 5, samples = [1, 2, 4, 8, 16], nodes = [1000], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 2, methods = ['sparserc'], transformation = None, runs = 1, timeout = 10000, dataset = laplace, table = TPR, sparserc_epochs = 10000, algo_lags = 2, legend = False, rotate = False, 
+samples = 2, timesteps = 1000, nodes = 1000, edges = 9000
+Total executions were 1
+Acc sparserc is,0.2474444444,2227.000,0.820,8040.000,0.918,0.820,0.866,0.910,0.421,1249.344,0.000,inf,0.000,91125.000
+Std sparserc is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,nan,0.000,0.000
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.5], edges = 5, samples = [1, 2, 4, 8, 16], nodes = [1000], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 2, methods = ['sparserc'], transformation = None, runs = 1, timeout = 10000, dataset = laplace, table = TPR, sparserc_epochs = 10000, algo_lags = 2, legend = False, rotate = False, 
+samples = 4, timesteps = 1000, nodes = 1000, edges = 9000
+Total executions were 1
+Acc sparserc is,0.2185555556,1967.000,0.849,8274.000,0.923,0.849,0.884,0.924,0.376,1302.115,0.000,inf,0.000,159860.000
+Std sparserc is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,nan,0.000,0.000
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.5], edges = 5, samples = [1, 2, 4, 8, 16], nodes = [1000], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 2, methods = ['sparserc'], transformation = None, runs = 1, timeout = 10000, dataset = laplace, table = TPR, sparserc_epochs = 10000, algo_lags = 2, legend = False, rotate = False, 
+samples = 8, timesteps = 1000, nodes = 1000, edges = 9000
+Total executions were 1
+Acc sparserc is,0.2027777778,1825.000,0.861,8356.000,0.927,0.861,0.893,0.930,0.362,1285.718,0.000,inf,0.000,296840.000
+Std sparserc is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,nan,0.000,0.000
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.5], edges = 5, samples = [1, 2, 4, 8, 16], nodes = [1000], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 2, methods = ['sparserc'], transformation = None, runs = 1, timeout = 10000, dataset = laplace, table = TPR, sparserc_epochs = 10000, algo_lags = 2, legend = False, rotate = False, 
+samples = 16, timesteps = 1000, nodes = 1000, edges = 9000
+Total executions were 1
+Acc sparserc is,0.2019444444,1817.500,0.863,8390.000,0.926,0.863,0.893,0.931,0.353,1469.132,0.000,inf,0.000,598754.000
+Std sparserc is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,nan,0.000,0.000
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.5], edges = 5, samples = [1, 2, 4, 8, 16], nodes = [2000], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 2, methods = ['sparserc'], transformation = None, runs = 1, timeout = 10000, dataset = laplace, table = TPR, sparserc_epochs = 10000, algo_lags = 2, legend = False, rotate = False, 
+
+samples = 1, timesteps = 1000, nodes = 2000, edges = 18000
+Total executions were 1
+Acc sparserc is,0.4190833333,7543.500,0.674,14005.000,0.867,0.674,0.759,0.837,0.579,16082.938,0.000,inf,0.000,135802.000
+Std sparserc is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,nan,0.000,0.000
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.5], edges = 5, samples = [1, 2, 4, 8, 16], nodes = [2000], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 2, methods = ['sparserc'], transformation = None, runs = 1, timeout = 10000, dataset = laplace, table = TPR, sparserc_epochs = 10000, algo_lags = 2, legend = False, rotate = False, 
+samples = 2, timesteps = 1000, nodes = 2000, edges = 18000
+Total executions were 1
+Acc sparserc is,0.2612222222,4702.000,0.805,15761.000,0.919,0.805,0.858,0.902,0.433,14362.155,0.000,inf,0.000,181411.000
+Std sparserc is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,nan,0.000,0.000
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.5], edges = 5, samples = [1, 2, 4, 8, 16], nodes = [2000], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 2, methods = ['sparserc'], transformation = None, runs = 1, timeout = 10000, dataset = laplace, table = TPR, sparserc_epochs = 10000, algo_lags = 2, legend = False, rotate = False, 
+samples = 4, timesteps = 1000, nodes = 2000, edges = 18000
+Total executions were 1
+Acc sparserc is,0.2164444444,3896.000,0.852,16629.000,0.922,0.852,0.886,0.926,0.366,12900.166,0.000,inf,0.000,306579.000
+Std sparserc is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,nan,0.000,0.000
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.5], edges = 5, samples = [1, 2, 4, 8, 16], nodes = [2000], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 2, methods = ['sparserc'], transformation = None, runs = 1, timeout = 10000, dataset = laplace, table = TPR, sparserc_epochs = 10000, algo_lags = 2, legend = False, rotate = False, 
+samples = 8, timesteps = 1000, nodes = 2000, edges = 18000
+Total executions were 1
+Acc sparserc is,0.1933611111,3480.500,0.874,17003.000,0.925,0.874,0.899,0.937,0.345,12246.903,0.000,inf,0.000,588746.000
+Std sparserc is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,nan,0.000,0.000
+
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.5], edges = 5, samples = [8, 16], nodes = [1000], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 2, methods = ['varlingam'], transformation = None, runs = 1, timeout = 10000, dataset = time_series, table = TPR, sparserc_epochs = 10000, algo_lags = 2, legend = False, rotate = False, 
+samples = 8, timesteps = 1000, nodes = 1000, edges = 9000
+Total executions were 1
+Acc varlingam is,0.8261111111,7435.000,0.786,13922.000,0.508,0.786,0.617,0.892,0.611,21927.587,0.000,inf,0.000,300457.000
+Std varlingam is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,nan,0.000,0.000
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.5], edges = 5, samples = [8, 16], nodes = [1000], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 2, methods = ['varlingam'], transformation = None, runs = 1, timeout = 10000, dataset = time_series, table = TPR, sparserc_epochs = 10000, algo_lags = 2, legend = False, rotate = False, 
+samples = 16, timesteps = 1000, nodes = 1000, edges = 9000
+Total executions were 1
+Acc varlingam is,0.7576111111,6818.500,0.819,13806.000,0.534,0.819,0.646,0.908,0.574,17405.543,0.000,inf,0.000,560817.000
+Std varlingam is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,nan,0.000,0.000

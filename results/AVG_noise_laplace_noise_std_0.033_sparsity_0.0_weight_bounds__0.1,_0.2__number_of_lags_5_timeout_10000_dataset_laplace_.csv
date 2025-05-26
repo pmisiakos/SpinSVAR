@@ -1,0 +1,114 @@
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.2], edges = 5, samples = [10], nodes = [20, 30, 50], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 5, methods = ['spinsvar', 'varlingam', 'd_varlingam', 'culingam', 'dynotears', 'nts-notears', 'tsfci', 'pcmci', 'TCDF'], transformation = None, runs = 5, timeout = 10000, dataset = laplace, table = TPR, sparserc_epochs = 10000, algo_lags = 5, legend = False, rotate = False, 
+samples = 10, timesteps = 1000, nodes = 20, edges = 300
+Total executions were 5
+Acc spinsvar is,0.0053333333,1.600,0.995,298.400,1.000,0.995,0.997,0.997,0.075,3.504,0.000,inf,0.000,4799.000
+Std spinsvar is,0.0000133333,1.200,0.004,1.200,0.000,0.004,0.002,0.002,0.014,0.336,0.000,nan,0.000,35.031
+Acc varlingam is,0.0140000000,4.200,0.986,295.800,1.000,0.986,0.993,0.993,0.104,0.240,0.000,inf,0.000,4791.000
+Std varlingam is,0.0000191111,1.720,0.006,1.720,0.000,0.006,0.003,0.003,0.015,0.009,0.000,nan,0.000,34.305
+Acc d_varlingam is,0.0133333333,4.000,0.987,296.000,1.000,0.987,0.993,0.993,0.102,5.237,0.000,inf,0.000,4790.000
+Std d_varlingam is,0.0000157111,1.414,0.005,1.414,0.000,0.005,0.002,0.002,0.013,0.116,0.000,nan,0.000,34.076
+Acc culingam is,0.0000000000,0.000,1.000,300.000,1.000,1.000,1.000,1.000,0.067,37.978,0.000,inf,0.000,4773.200
+Std culingam is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.002,0.816,0.000,nan,0.000,40.848
+Acc dynotears is,1.0000000000,300.000,0.000,0.000,0.000,0.000,0.000,0.500,1.000,0.026,0.000,inf,0.000,8063.000
+Std dynotears is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.005,0.000,nan,0.000,126.909
+Acc nts-notears is,1.0000000000,300.000,0.000,0.000,0.000,0.000,0.000,0.500,1.000,2.269,0.000,inf,0.000,8063.000
+Std nts-notears is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.247,0.000,nan,0.000,126.909
+Acc tsfci is,1.0000000000,300.000,0.000,0.000,0.000,0.000,0.000,0.500,1.000,46.646,0.000,inf,0.000,8063.000
+Std tsfci is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,4.576,0.000,nan,0.000,126.909
+Acc pcmci is,0.7986666667,239.600,0.997,563.400,0.533,0.997,0.694,0.935,9.003,144.854,0.000,inf,0.000,72694.400
+Std pcmci is,0.0003468667,31.218,0.002,36.186,0.034,0.002,0.029,0.009,0.304,6.574,0.000,nan,0.000,1673.849
+Acc TCDF is,0.7760000000,232.800,0.274,113.400,0.726,0.274,0.396,0.630,4.139,125.453,0.000,inf,0.000,45385.000
+Std TCDF is,0.0001012000,9.108,0.038,16.206,0.024,0.038,0.040,0.018,0.300,0.473,0.000,nan,0.000,3072.324
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.2], edges = 5, samples = [10], nodes = [20, 30, 50], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 5, methods = ['spinsvar', 'varlingam', 'd_varlingam', 'culingam', 'dynotears', 'nts-notears', 'tsfci', 'pcmci', 'TCDF'], transformation = None, runs = 5, timeout = 10000, dataset = laplace, table = TPR, sparserc_epochs = 10000, algo_lags = 5, legend = False, rotate = False, 
+samples = 10, timesteps = 1000, nodes = 30, edges = 450
+Total executions were 5
+Acc spinsvar is,0.0062222222,2.800,0.994,447.200,1.000,0.994,0.997,0.997,0.076,3.124,0.000,inf,0.000,7254.600
+Std spinsvar is,0.0000109975,2.227,0.005,2.227,0.000,0.005,0.002,0.002,0.015,0.098,0.000,nan,0.000,46.736
+Acc varlingam is,0.0151111111,6.800,0.985,443.200,1.000,0.985,0.992,0.992,0.107,0.485,0.000,inf,0.000,7246.200
+Std varlingam is,0.0000072593,1.470,0.003,1.470,0.000,0.003,0.002,0.002,0.008,0.011,0.000,nan,0.000,47.831
+Acc d_varlingam is,0.0146666667,6.600,0.985,443.400,1.000,0.985,0.993,0.993,0.106,17.954,0.000,inf,0.000,7244.800
+Std d_varlingam is,0.0000059259,1.200,0.003,1.200,0.000,0.003,0.001,0.001,0.006,0.122,0.000,nan,0.000,48.967
+Acc culingam is,0.0000000000,0.000,1.000,450.000,1.000,1.000,1.000,1.000,0.065,82.556,0.000,inf,0.000,7232.800
+Std culingam is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.002,1.737,0.000,nan,0.000,44.575
+Acc dynotears is,1.0000000000,450.000,0.000,0.000,0.000,0.000,0.000,0.500,1.000,0.046,0.000,inf,0.000,12290.200
+Std dynotears is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.005,0.000,nan,0.000,296.710
+Acc nts-notears is,1.0000000000,450.000,0.000,0.000,0.000,0.000,0.000,0.500,1.000,4.982,0.000,inf,0.000,12290.200
+Std nts-notears is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.097,0.000,nan,0.000,296.710
+Acc tsfci is,1.0000000000,450.000,0.000,0.000,0.000,0.000,0.000,0.500,1.000,199.875,0.000,inf,0.000,12290.200
+Std tsfci is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,14.605,0.000,nan,0.000,296.710
+Acc pcmci is,0.8951111111,402.800,0.997,876.200,0.513,0.997,0.677,0.955,9.188,379.360,0.000,inf,0.000,108349.000
+Std pcmci is,0.0001081975,21.910,0.002,26.164,0.015,0.002,0.012,0.002,0.150,11.653,0.000,nan,0.000,938.537
+Acc TCDF is,0.6442222222,289.900,0.522,344.600,0.681,0.522,0.591,0.750,5.817,188.782,0.000,inf,0.000,88608.200
+Std TCDF is,0.0000505383,10.234,0.022,11.110,0.011,0.022,0.017,0.011,0.154,0.719,0.000,nan,0.000,1013.973
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.2], edges = 5, samples = [10], nodes = [20, 30, 50], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 5, methods = ['spinsvar', 'varlingam', 'd_varlingam', 'culingam', 'dynotears', 'nts-notears', 'tsfci', 'pcmci', 'TCDF'], transformation = None, runs = 5, timeout = 10000, dataset = laplace, table = TPR, sparserc_epochs = 10000, algo_lags = 5, legend = False, rotate = False, 
+samples = 10, timesteps = 1000, nodes = 50, edges = 750
+Total executions were 5
+Acc spinsvar is,0.0104000000,7.800,0.990,742.200,1.000,0.990,0.995,0.995,0.091,2.946,0.000,inf,0.000,12087.600
+Std spinsvar is,0.0000032587,1.833,0.002,1.833,0.000,0.002,0.001,0.001,0.006,0.097,0.000,nan,0.000,83.935
+Acc varlingam is,0.0157333333,11.800,0.984,738.200,1.000,0.984,0.992,0.992,0.110,1.355,0.000,inf,0.000,12048.200
+Std varlingam is,0.0000068764,3.868,0.005,3.868,0.000,0.005,0.003,0.003,0.012,0.016,0.000,nan,0.000,80.599
+Acc d_varlingam is,0.0157333333,11.800,0.984,738.200,1.000,0.984,0.992,0.992,0.110,84.356,0.000,inf,0.000,12045.800
+Std d_varlingam is,0.0000068764,3.868,0.005,3.868,0.000,0.005,0.003,0.003,0.012,1.145,0.000,nan,0.000,79.715
+Acc culingam is,0.0000000000,0.000,1.000,750.000,1.000,1.000,1.000,1.000,0.069,256.371,0.000,inf,0.000,12010.200
+Std culingam is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.001,0.604,0.000,nan,0.000,97.210
+Acc dynotears is,1.0000000000,750.000,0.000,0.000,0.000,0.000,0.000,0.500,1.000,0.120,0.000,inf,0.000,20462.800
+Std dynotears is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.050,0.000,nan,0.000,200.107
+Acc nts-notears is,1.0000000000,750.000,0.000,0.000,0.000,0.000,0.000,0.500,1.000,28.701,0.000,inf,0.000,20462.800
+Std nts-notears is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.139,0.000,nan,0.000,200.107
+Acc tsfci is,1.0000000000,750.000,0.000,0.000,0.000,0.000,0.000,0.500,1.000,1177.128,0.000,inf,0.000,20462.800
+Std tsfci is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,149.508,0.000,nan,0.000,200.107
+Acc pcmci is,1.0666666667,800.000,0.999,1583.200,0.474,0.999,0.643,0.970,9.591,1228.926,0.000,inf,0.000,183567.600
+Std pcmci is,0.0000703040,39.546,0.001,39.443,0.012,0.001,0.011,0.002,0.132,74.438,0.000,nan,0.000,2881.530
+Acc TCDF is,1.0946666667,821.000,0.613,1067.600,0.430,0.613,0.505,0.785,7.897,328.897,0.000,inf,0.000,177035.200
+Std TCDF is,0.0000499520,28.098,0.027,16.378,0.017,0.027,0.021,0.014,0.092,0.910,0.000,nan,0.000,2046.148
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.2], edges = 5, samples = [10], nodes = [100, 200], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 5, methods = ['spinsvar', 'varlingam', 'dynotears', 'd_varlingam', 'culingam', 'TCDF'], transformation = None, runs = 5, timeout = 10000, dataset = laplace, table = TPR, sparserc_epochs = 10000, algo_lags = 5, legend = False, rotate = False, 
+samples = 10, timesteps = 1000, nodes = 100, edges = 1500
+Total executions were 5
+Acc spinsvar is,0.0096000000,14.400,0.990,1485.600,1.000,0.990,0.995,0.995,0.090,3.025,0.000,inf,0.000,24137.200
+Std spinsvar is,0.0000007222,1.625,0.001,1.625,0.000,0.001,0.001,0.001,0.004,0.227,0.000,nan,0.000,142.337
+Acc varlingam is,0.0173333333,26.000,0.983,1474.000,1.000,0.983,0.991,0.991,0.114,6.288,0.000,inf,0.000,24104.400
+Std varlingam is,0.0000023178,5.215,0.003,5.215,0.000,0.003,0.002,0.002,0.009,0.371,0.000,nan,0.000,152.683
+Acc dynotears is,1.0000000000,1500.000,0.000,0.000,0.000,0.000,0.000,0.500,1.000,0.507,0.000,inf,0.000,40795.800
+Std dynotears is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.058,0.000,nan,0.000,232.396
+Acc d_varlingam is,0.0168000000,25.200,0.983,1474.800,1.000,0.983,0.992,0.992,0.113,581.931,0.000,inf,0.000,24098.800
+Std d_varlingam is,0.0000023587,5.307,0.004,5.307,0.000,0.004,0.002,0.002,0.009,3.734,0.000,nan,0.000,149.320
+Acc culingam is,0.0000000000,0.000,1.000,1500.000,1.000,1.000,1.000,1.000,0.069,1235.537,0.000,inf,0.000,24041.200
+Std culingam is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.001,5.359,0.000,nan,0.000,140.290
+Acc TCDF is,1.8488666667,2773.300,0.495,2967.200,0.250,0.495,0.332,0.728,9.247,712.263,0.000,inf,0.000,378044.600
+Std TCDF is,0.0000130280,29.313,0.015,14.302,0.008,0.015,0.010,0.008,0.062,2.118,0.000,nan,0.000,3089.856
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.2], edges = 5, samples = [10], nodes = [100, 200], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 5, methods = ['spinsvar', 'varlingam', 'dynotears', 'd_varlingam', 'culingam', 'TCDF'], transformation = None, runs = 5, timeout = 10000, dataset = laplace, table = TPR, sparserc_epochs = 10000, algo_lags = 5, legend = False, rotate = False, 
+samples = 10, timesteps = 1000, nodes = 200, edges = 3000
+Total executions were 5
+Acc spinsvar is,0.0146666667,44.000,0.985,2956.000,1.000,0.985,0.993,0.993,0.104,4.069,0.000,inf,0.000,48293.600
+Std spinsvar is,0.0000006740,6.066,0.002,6.066,0.000,0.002,0.001,0.001,0.004,0.429,0.000,nan,0.000,213.314
+Acc varlingam is,0.0185333333,55.600,0.981,2944.400,1.000,0.981,0.991,0.991,0.118,45.926,0.000,inf,0.000,48202.600
+Std varlingam is,0.0000004797,4.317,0.001,4.317,0.000,0.001,0.001,0.001,0.002,5.338,0.000,nan,0.000,216.225
+Acc dynotears is,1.0000000000,3000.000,0.000,0.000,0.000,0.000,0.000,0.500,1.000,1.757,0.000,inf,0.000,82429.400
+Std dynotears is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.085,0.000,nan,0.000,516.145
+Acc d_varlingam is,0.0182666667,54.800,0.982,2945.200,1.000,0.982,0.991,0.991,0.117,4973.735,0.000,inf,0.000,48194.200
+Std d_varlingam is,0.0000004630,4.167,0.001,4.167,0.000,0.001,0.001,0.001,0.002,391.872,0.000,nan,0.000,209.611
+Acc culingam is,0.0000000000,0.000,1.000,3000.000,1.000,1.000,1.000,1.000,0.071,5896.648,0.000,inf,0.000,48061.200
+Std culingam is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.001,251.744,0.000,nan,0.000,206.915
+Acc TCDF is,2.1474333333,6442.300,0.415,6273.200,0.198,0.415,0.268,0.697,9.476,2018.131,0.000,inf,0.000,758609.800
+Std TCDF is,0.0000223698,201.328,0.017,124.921,0.011,0.017,0.014,0.009,0.109,85.572,0.000,nan,0.000,6784.404
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.2], edges = 5, samples = [10], nodes = [500], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 5, methods = ['spinsvar', 'varlingam', 'dynotears'], transformation = None, runs = 5, timeout = 10000, dataset = laplace, table = TPR, sparserc_epochs = 10000, algo_lags = 5, legend = False, rotate = False, 
+samples = 10, timesteps = 1000, nodes = 500, edges = 7500
+Total executions were 5
+Acc spinsvar is,0.0320266667,240.200,0.968,7259.800,1.000,0.968,0.984,0.984,0.148,10.108,0.000,inf,0.000,121373.600
+Std spinsvar is,0.0000000916,5.154,0.001,5.154,0.000,0.001,0.000,0.000,0.001,3.491,0.000,nan,0.000,498.465
+Acc varlingam is,0.1772000000,1329.000,0.823,6989.200,0.883,0.823,0.852,0.911,0.493,957.241,0.000,inf,0.000,123508.600
+Std varlingam is,0.0000010231,57.547,0.008,22.578,0.006,0.008,0.007,0.004,0.012,53.200,0.000,nan,0.000,406.302
+Acc dynotears is,1.0000000000,7500.000,0.000,0.000,0.000,0.000,0.000,0.500,1.000,8.556,0.000,inf,0.000,203852.400
+Std dynotears is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.236,0.000,nan,0.000,873.094
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.2], edges = 5, samples = [10], nodes = [1000], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 5, methods = ['spinsvar', 'sparserc'], transformation = None, runs = 5, timeout = 10000, dataset = laplace, table = TPR, sparserc_epochs = 10000, algo_lags = 5, legend = False, rotate = False, 
+samples = 10, timesteps = 1000, nodes = 1000, edges = 15000
+Total executions were 5
+Acc spinsvar is,0.1014933333,1522.400,0.899,13477.600,1.000,0.899,0.947,0.949,0.259,37.702,0.000,inf,0.000,248677.200
+Std spinsvar is,0.0000001530,34.424,0.002,34.424,0.000,0.002,0.001,0.001,0.002,9.024,0.000,nan,0.000,662.649
+Acc sparserc is,0.6276933333,9415.400,0.372,5584.600,1.000,0.372,0.543,0.686,0.761,5684.180,0.000,inf,0.000,326099.800
+Std sparserc is,0.0000002560,57.608,0.004,57.608,0.000,0.004,0.004,0.002,0.002,654.303,0.000,nan,0.000,798.037
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.2], edges = 5, samples = [10], nodes = [2000], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 5, methods = ['spinsvar'], transformation = None, runs = 5, timeout = 10000, dataset = laplace, table = TPR, sparserc_epochs = 10000, algo_lags = 5, legend = False, rotate = False, 
+samples = 10, timesteps = 1000, nodes = 2000, edges = 30000
+Total executions were 5
+Acc spinsvar is,0.3543000000,10629.000,0.646,19371.000,1.000,0.646,0.785,0.823,0.523,138.855,0.000,inf,0.000,554554.800
+Std spinsvar is,0.0000000661,59.525,0.002,59.525,0.000,0.002,0.001,0.001,0.002,50.186,0.000,nan,0.000,618.864

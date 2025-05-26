@@ -1,0 +1,5 @@
+noise = gauss, noise_std = 0.01, noise_effect = both, trans_clos = FW, sparsity = 0.05, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.2], edges = 5, samples = [10], nodes = [1000], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 3, methods = ['spinsvar'], transformation = None, runs = 5, timeout = 10000, table = TPR, sparserc_epochs = 10000, algo_lags = 6, legend = False, rotate = False, 
+samples = 10, timesteps = 1000, nodes = 1000, edges = 11000
+Total executions were 5
+Acc spinsvar is,0.0000000000,0.000,1.000,11000.000,1.000,1.000,1.000,1.000,0.016,90.055,0.000,0.081,250176.000,1731.500
+Std spinsvar is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,1.104,0.000,0.000,797.000,32.500

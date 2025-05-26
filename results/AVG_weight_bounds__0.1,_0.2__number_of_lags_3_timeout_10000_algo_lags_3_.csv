@@ -1,0 +1,9 @@
+noise = gauss, noise_std = 0.01, noise_effect = both, trans_clos = FW, sparsity = 0.05, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.2], edges = 5, samples = [10], nodes = [1000], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 3, methods = ['spinsvar'], transformation = None, runs = 5, timeout = 10000, table = TPR, sparserc_epochs = 10000, algo_lags = 3, legend = False, rotate = False, 
+samples = 10, timesteps = 1000, nodes = 1000, edges = 11000
+Total executions were 5
+Acc spinsvar is,0.0000000000,0.000,1.000,11000.000,1.000,1.000,1.000,1.000,0.016,46.255,0.000,0.082,250013.000,1764.000
+Std spinsvar is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.180,0.000,0.001,132.000,3.000
+Acc sparserc is,0.0192727273,212.000,0.981,10788.000,1.000,0.981,0.990,0.990,0.125,784.516,0.000,0.134,249420.500,8057.000
+Std sparserc is,0.0000000248,3.000,0.000,3.000,0.000,0.000,0.000,0.000,0.001,85.521,0.000,0.000,13.500,211.000
+Acc varlingam is,0.0385681818,424.250,0.961,10575.750,1.000,0.961,0.980,0.981,0.163,3666.148,0.000,0.148,499485.250,17306.000
+Std varlingam is,0.0000001731,20.945,0.002,20.945,0.000,0.002,0.001,0.001,0.003,173.023,0.000,0.001,443.033,1276.051

@@ -1,0 +1,53 @@
+noise = gauss, noise_std = 0.01, noise_effect = both, trans_clos = FW, sparsity = 0.05, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.5], edges = 5, samples = [1, 2, 3, 5, 10, 20], nodes = [500], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 2, methods = ['spinsvar', 'varlingam'], transformation = None, runs = 5, timeout = 10000, table = TPR, sparserc_epochs = 10000, legend = False, 
+samples = 1, timesteps = 1000, nodes = 500, edges = 4500
+Total executions were 5
+Acc spinsvar is,0.0013777778,6.200,0.999,4493.800,1.000,0.999,0.999,0.999,0.028,12.964,0.000,0.101,12547.600,207.200
+Std spinsvar is,0.0000000655,1.327,0.000,1.327,0.000,0.000,0.000,0.000,0.004,0.539,0.000,0.007,106.398,109.236
+Acc sparserc is,0.2542444444,1144.100,0.909,4885.200,0.837,0.909,0.871,0.954,0.344,105.314,0.000,0.648,12452.400,46383.200
+Std sparserc is,0.0000039467,79.921,0.004,52.480,0.012,0.004,0.008,0.002,0.009,15.890,0.000,0.035,44.238,4320.008
+Acc varlingam is,55.4748666667,249636.900,0.406,448627.200,0.004,0.406,0.008,0.403,31.836,1159.997,0.000,6.143,24973.200,235605.600
+Std varlingam is,0.0000498679,1009.824,0.005,9545.517,0.000,0.005,0.000,0.004,7.785,239.884,0.000,1.050,240.053,9074.093
+noise = gauss, noise_std = 0.01, noise_effect = both, trans_clos = FW, sparsity = 0.05, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.5], edges = 5, samples = [1, 2, 3, 5, 10, 20], nodes = [500], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 2, methods = ['spinsvar', 'varlingam'], transformation = None, runs = 5, timeout = 10000, table = TPR, sparserc_epochs = 10000, legend = False, 
+samples = 2, timesteps = 1000, nodes = 500, edges = 4500
+Total executions were 5
+Acc spinsvar is,0.0000000000,0.000,1.000,4500.000,1.000,1.000,1.000,1.000,0.009,11.474,0.000,0.085,25045.800,211.800
+Std spinsvar is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,1.376,0.000,0.002,97.770,26.126
+Acc sparserc is,0.2038222222,917.200,0.935,4909.800,0.857,0.935,0.895,0.967,0.305,165.281,0.000,0.604,24840.000,82329.000
+Std sparserc is,0.0000015683,31.758,0.002,32.152,0.005,0.002,0.003,0.001,0.004,20.540,0.000,0.019,111.916,4223.503
+Acc varlingam is,3.2553777778,14649.200,0.751,17695.400,0.191,0.751,0.305,0.866,0.834,831.200,0.000,1.230,49941.600,227121.800
+Std varlingam is,0.0000157400,318.736,0.009,282.881,0.005,0.009,0.007,0.005,0.016,57.503,0.000,0.040,133.630,7160.653
+noise = gauss, noise_std = 0.01, noise_effect = both, trans_clos = FW, sparsity = 0.05, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.5], edges = 5, samples = [3, 5, 20], nodes = [500], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 2, methods = ['spinsvar', 'varlingam'], transformation = None, runs = 5, timeout = 10000, table = TPR, sparserc_epochs = 10000, legend = False, 
+samples = 3, timesteps = 1000, nodes = 500, edges = 4500
+Total executions were 5
+Acc spinsvar is,0.0000000000,0.000,1.000,4500.000,1.000,1.000,1.000,1.000,0.007,11.482,0.000,0.084,37599.200,310.400
+Std spinsvar is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.521,0.000,0.001,130.919,19.622
+Acc sparserc is,0.1971555556,887.200,0.939,4918.800,0.859,0.939,0.897,0.969,0.299,171.768,0.000,0.588,37494.800,114642.200
+Std sparserc is,0.0000019055,38.587,0.004,33.036,0.005,0.004,0.004,0.002,0.009,15.030,0.000,0.020,171.104,7547.570
+Acc varlingam is,0.8900444444,4005.200,0.815,7318.000,0.572,0.815,0.657,0.905,0.490,2368.547,0.000,0.702,75204.800,152789.400
+Std varlingam is,0.0001327189,2687.558,0.119,2007.200,0.259,0.119,0.217,0.061,0.277,1574.242,0.000,0.328,357.395,109201.177
+noise = gauss, noise_std = 0.01, noise_effect = both, trans_clos = FW, sparsity = 0.05, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.5], edges = 5, samples = [3, 5, 20], nodes = [500], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 2, methods = ['spinsvar', 'varlingam'], transformation = None, runs = 5, timeout = 10000, table = TPR, sparserc_epochs = 10000, legend = False, 
+samples = 5, timesteps = 1000, nodes = 500, edges = 4500
+Total executions were 5
+Acc spinsvar is,0.0000000000,0.000,1.000,4500.000,1.000,1.000,1.000,1.000,0.006,12.829,0.000,0.084,62325.200,518.200
+Std spinsvar is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.740,0.000,0.001,164.463,32.756
+Acc sparserc is,0.1848666667,831.900,0.949,4955.200,0.862,0.949,0.903,0.974,0.289,181.351,0.000,0.554,62448.200,175512.200
+Std sparserc is,0.0000013605,27.551,0.002,20.740,0.005,0.002,0.003,0.001,0.002,13.287,0.000,0.014,212.220,7578.953
+Acc varlingam is,0.0199111111,89.600,0.981,4421.200,0.999,0.981,0.990,0.991,0.072,337.607,0.000,0.193,124923.600,5709.400
+Std varlingam is,0.0000001940,3.929,0.001,6.675,0.000,0.001,0.000,0.001,0.001,9.502,0.000,0.003,263.658,404.934
+samples = 10, timesteps = 1000, nodes = 500, edges = 4500
+Total executions were 1
+Acc spinsvar is,0.0000000000,0.000,1.000,4500.000,1.000,1.000,1.000,1.000,0.005,15.772,0.000,0.084,124888.600,996.400
+Std spinsvar is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,1.137,0.000,0.000,207.879,20.304
+Acc sparserc is,0.1989555556,895.300,0.946,5006.200,0.851,0.946,0.896,0.973,0.295,204.945,0.000,0.600,124886.600,401392.600
+Std sparserc is,0.0000026132,52.918,0.004,31.186,0.008,0.004,0.006,0.002,0.007,9.260,0.000,0.016,255.249,19343.794
+Acc varlingam is,0.0075555556,34.000,0.992,4466.000,1.000,0.992,0.996,0.996,0.045,437.004,0.000,0.159,249866.600,4993.600
+Std varlingam is,0.0000004179,8.462,0.002,8.462,0.000,0.002,0.001,0.001,0.003,7.959,0.000,0.002,282.970,440.888
+noise = gauss, noise_std = 0.01, noise_effect = both, trans_clos = FW, sparsity = 0.05, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.5], edges = 5, samples = [3, 5, 20], nodes = [500], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 2, methods = ['spinsvar', 'varlingam'], transformation = None, runs = 5, timeout = 10000, table = TPR, sparserc_epochs = 10000, legend = False, 
+samples = 20, timesteps = 1000, nodes = 500, edges = 4500
+Total executions were 5
+Acc spinsvar is,0.0000000000,0.000,1.000,4500.000,1.000,1.000,1.000,1.000,0.004,22.360,0.000,0.084,250332.000,2068.000
+Std spinsvar is,0.0000000000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,1.539,0.000,0.000,406.619,23.757
+Acc sparserc is,0.1899333333,854.700,0.951,4997.000,0.856,0.951,0.901,0.975,0.289,264.853,0.000,0.566,250140.200,732870.000
+Std sparserc is,0.0000017386,35.207,0.003,19.647,0.004,0.003,0.004,0.002,0.006,23.049,0.000,0.013,397.016,34463.430
+Acc varlingam is,0.0024000000,10.800,0.998,4489.200,1.000,0.998,0.999,0.999,0.029,535.910,0.000,0.144,499846.600,6935.600
+Std varlingam is,0.0000001910,3.868,0.001,3.868,0.000,0.001,0.000,0.000,0.002,8.436,0.000,0.002,668.189,623.691

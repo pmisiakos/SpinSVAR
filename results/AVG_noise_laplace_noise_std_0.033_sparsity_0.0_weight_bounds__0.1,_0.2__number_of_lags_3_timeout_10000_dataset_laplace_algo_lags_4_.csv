@@ -1,0 +1,7 @@
+noise = laplace, noise_std = 0.033, noise_effect = root_causes, trans_clos = FW, sparsity = 0.0, omega = 0.09, lambda1 = 0.001, lambda2 = 1, alpha = 1, beta = 1, weight_bounds = [0.1, 0.2], edges = 5, samples = [10], nodes = [1000], graph_type = ER, fixSup = False, timesteps = [1000], number_of_lags = 3, methods = ['spinsvar', 'sparserc'], transformation = None, runs = 2, timeout = 10000, dataset = laplace, table = TPR, sparserc_epochs = 10000, algo_lags = 4, legend = False, rotate = False, 
+samples = 10, timesteps = 1000, nodes = 1000, edges = 11000
+Total executions were 2
+Acc spinsvar is,0.1231818182,1355.000,0.877,9645.000,1.000,0.877,0.934,0.938,0.287,36.253,0.000,inf,0.000,247280.000
+Std spinsvar is,0.0000001322,16.000,0.001,16.000,0.000,0.001,0.001,0.001,0.001,1.786,0.000,nan,0.000,178.000
+Acc sparserc is,0.5841363636,6425.500,0.416,4574.500,1.000,0.416,0.587,0.708,0.728,3104.495,0.000,inf,0.000,287592.500
+Std sparserc is,0.0000003760,45.500,0.004,45.500,0.000,0.004,0.004,0.002,0.002,107.899,0.000,nan,0.000,122.500
